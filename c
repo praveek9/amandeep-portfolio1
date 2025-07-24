@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amandeep's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0077cc;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .contact p {
+      margin: 4px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Amandeep 👋</h1>
+    <p>Student | Web Enthusiast | Lifelong Learner</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am currently pursuing my degree in Computer Science at ABC College. I'm passionate about web development and always excited to build new projects and learn more.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python Programming</li>
+      <li>SQL Basics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Weather App</strong> – A simple weather forecasting app using APIs.</li>
+      <li><strong>To-Do List</strong> – Task tracker with add/remove/edit features.</li>
+      <li><strong>This Portfolio</strong> – Designed using HTML & CSS only.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <p>Email: amandeep@example.com</p>
+      <p>GitHub: <a href="https://github.com/amandeep" target="_blank">github.com/amandeep</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Amandeep | Made with ❤️ for college project
+  </footer>
+
+</body>
+</html>
